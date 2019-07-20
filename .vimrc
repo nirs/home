@@ -26,6 +26,11 @@ set number
 set laststatus=2
 set statusline=%<%f\ %y%m%r%=%-14.(%l,%c%V%)\ %P
 
+" Command used with :grep
+" - Using -n to include the line number in the results, so it works with
+"   quickfix window.
+set grepprg=git\ grep\ -n\ $*
+
 " Highlight traling whitespace
 
 highlight ExtraWhitespace ctermbg=red guibg=red
