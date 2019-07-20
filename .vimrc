@@ -57,5 +57,5 @@ set secure
 
 " GUI settings
 
-set guifont=Monospace\ 11
+set guifont=Monospace\ 13
 set guioptions-=T " Disable toolbar
