@@ -13,7 +13,13 @@ set shiftwidth=4
 set expandtab
 filetype plugin indent on
 set sm
-set listchars=tab:»\
+
+" Show inivisble characters:
+" tab: <ctrl-v>u25b9
+" eol: <ctrl-v>u00ac
+" See http://vimcasts.org/episodes/show-invisibles/
+set listchars=tab:▸\ ,eol:¬
+
 set number
 set cursorline
 
