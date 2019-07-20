@@ -21,7 +21,6 @@ set sm
 set listchars=tab:▸\ ,eol:¬
 
 set number
-set cursorline
 
 " Status line
 set laststatus=2
