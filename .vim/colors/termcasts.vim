@@ -31,13 +31,13 @@ let g:colors_name = "termcasts"
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=white ctermbg=234
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
+hi CursorLineNr              guifg=#bbbbbb ctermfg=grey
+hi LineNr                    guifg=#888888 ctermfg=darkgrey
 hi Search                    guibg=yellow ctermbg=yellow cterm=bold
 hi Visual                    guibg=#5A647E ctermbg=60
-hi LineNr                    guifg=#888888 ctermfg=242
-hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC ctermfg=242
+hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC ctermfg=darkgrey
 hi StatusLineNC              guibg=#414243 gui=NONE ctermfg=238
 hi VertSplit                 guibg=#414243 gui=NONE guifg=#414243
-hi CursorLineNr              guifg=#bbbbbb ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
 
 " Folds
@@ -47,8 +47,8 @@ hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE
 
 " Invisible Characters
 " ------------------
-hi NonText                   guifg=#777777 gui=NONE
-hi SpecialKey                guifg=#777777 gui=NONE
+hi NonText                   guifg=#A5C261 ctermfg=darkgrey
+hi SpecialKey                guifg=#A5C261 ctermfg=darkgrey
 
 " Misc
 " ----
