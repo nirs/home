@@ -34,6 +34,10 @@ set statusline=%<%f\ %y%m%r%=%-14.(%l,%c%V%)\ %P
 "   quickfix window.
 set grepprg=git\ grep\ -n\ $*
 
+" Transparent background
+"highlight NonText ctermbg=none
+"highlight Normal ctermbg=none
+
 " Highlight traling whitespace
 
 highlight ExtraWhitespace ctermbg=red guibg=red
