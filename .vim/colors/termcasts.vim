@@ -75,6 +75,7 @@ hi Error                     guifg=#ffd75f guibg=darkred ctermfg=221 ctermbg=dar
 hi Function                  guifg=#ffd75f gui=bold ctermfg=221 cterm=bold
 hi Identifier                guifg=#5fafaf gui=NONE ctermfg=73 cterm=NONE
 hi Keyword                   guifg=#d78700 ctermfg=172 cterm=bold
+hi Operator                  guifg=#d78700 ctermfg=172 cterm=bold
 hi Number                    guifg=#87af5f ctermfg=107
 hi Statement                 guifg=#d78700 gui=bold ctermfg=172 cterm=bold
 hi String                    guifg=#87af5f ctermfg=107
