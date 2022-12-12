@@ -30,8 +30,8 @@ let g:colors_name = "termcasts"
 
 hi Normal                    guifg=white guibg=#1c1c1c ctermfg=white ctermbg=234
 hi Cursor                    guifg=black guibg=white ctermfg=0 ctermbg=black
-hi CursorLine                guibg=#262626 ctermbg=235
-hi CursorLineNr              guifg=#808080 ctermfg=grey
+hi CursorLine                guibg=#262626 ctermbg=236 cterm=none
+hi CursorLineNr              guifg=#808080 ctermfg=grey ctermbg=236 cterm=none
 hi LineNr                    guifg=#6c6c6c ctermfg=darkgrey
 hi Search                    guibg=yellow guifg=black gui=bold ctermbg=yellow ctermfg=black cterm=bold
 hi Visual                    guibg=#5f5f87 ctermbg=60

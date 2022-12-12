@@ -14,6 +14,9 @@ set expandtab
 filetype plugin indent on
 set sm
 
+" Show current line.
+set cursorline
+
 " Show inivisble characters:
 " tab: <ctrl-v>u25b9
 " eol: <ctrl-v>u00ac
