@@ -20,13 +20,13 @@ endif
 let g:colors_name = "termcasts"
 
 " Colors
-" Brown        #BC9458
-" Dark Blue    #6D9CBE
-" Dark Green   #519F50
-" Dark Orange  #CC7833
-" Light Blue   #D0D0FF
-" Light Green  #A5C261
-" Tan          #FFC66D
+" Brown        #bc9458
+" Dark Blue    #6d9cbe
+" Dark Green   #519f50
+" Dark Orange  #cc7833
+" Light Blue   #d0d0ff
+" Light Green  #a5c261
+" Tan          #ffc66d
 
 hi Normal                    guifg=white guibg=#1c1c1c ctermfg=white ctermbg=234
 hi Cursor                    guifg=black guibg=white ctermfg=0 ctermbg=black
