@@ -82,3 +82,6 @@ let g:go_highlight_build_constraints = 1
 let g:go_highlight_generate_tags = 1
 let g:go_highlight_variable_declarations = 1
 let g:go_highlight_variable_assignments = 1
+
+" vim-tex settings for better indentation
+let g:tex_noindent_env = 'document\|verbatim\|lstlisting\|abstract'
