@@ -83,11 +83,11 @@ hi Title                     guifg=white ctermfg=white
 hi Type                      guifg=lightgreen ctermfg=lightgreen
 
 " Preprocessor
-hi Include                   guifg=#d78700 gui=bold ctermfg=172 cterm=bold
 hi Define                    guifg=#d78700 gui=bold ctermfg=172 cterm=bold
-hi PreProc                   guifg=#d78700 gui=bold ctermfg=172 cterm=bold
+hi Include                   guifg=#d78700 gui=bold ctermfg=172 cterm=bold
 hi Macro                     guifg=#d78700 gui=bold ctermfg=172 cterm=bold
 hi PreCondit                 guifg=#d78700 gui=bold ctermfg=172 cterm=bold
+hi PreProc                   guifg=#d78700 gui=bold ctermfg=172 cterm=bold
 
 " diff
 hi DiffAdd                   guifg=#E6E1DC guibg=#144212
