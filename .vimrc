@@ -85,3 +85,7 @@ let g:go_highlight_variable_assignments = 1
 
 " vim-tex settings for better indentation
 let g:tex_noindent_env = 'document\|verbatim\|lstlisting\|abstract'
+
+" cscope
+cscope add cscope.out
+set cscopetag
