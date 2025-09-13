@@ -46,6 +46,7 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
+autocmd SourcePost * hi Normal guibg=NONE ctermbg=NONE
 
 " Close the omni completion tip window after selection is made
 
