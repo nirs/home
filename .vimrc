@@ -60,7 +60,7 @@ autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
 autocmd FileType gitcommit setlocal textwidth=72 spell
 autocmd FileType html setlocal tabstop=2 shiftwidth=2
-autocmd FileType markdown setlocal textwidth=72 spell
+autocmd FileType markdown setlocal textwidth=80 spell
 
 " Load vimrc from current directory. Use secure mode to limit commands in
 " local rc file.
